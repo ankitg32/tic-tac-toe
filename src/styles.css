@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+}
+
+.board-row {
+  display: flex;
+}
+
+.board-square {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.board-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+}
+
+.board-main-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.board-sidebar {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.button {
+  border: none;
+  background-color: rgb(39, 31, 31);
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 12px;
+  margin: 5px;
+  /* width: 70px;
+  height: 30px; */
+}
